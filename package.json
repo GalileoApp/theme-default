@@ -1,6 +1,6 @@
 {
-  "name": "gitbook-plugin-theme-default",
-  "description": "Default theme for GitBook",
+  "name": "gitbook-plugin-theme-galileo",
+  "description": "Galileo theme for GitBook",
   "main": "./index.js",
   "version": "1.0.7",
   "engines": {
@@ -8,34 +8,38 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "browserify": "13.1.0",
-    "eslint": "3.6.1",
-    "font-awesome": "4.6.3",
-    "preboot": "git+https://github.com/mdo/preboot.git#4aab4edd85f076d50609cbe28e4fe66cc0771701",
+    "browserify": "15.2.0",
+    "eslint": "4.16.0",
+    "font-awesome": "4.7.0",
     "gitbook-logos": "git+https://github.com/GitbookIO/logos.git#2.0.2",
-    "gitbook-markdown-css": "1.0.1",
-    "jquery": "3.1.1",
-    "less": "2.7.1",
+    "gitbook-markdown-css": "1.1.0",
+    "jquery": "3.3.1",
+    "less": "2.7.3",
     "less-plugin-clean-css": "1.5.1",
-    "mousetrap": "1.6.0",
-    "uglify-js": "2.7.3"
+    "mousetrap": "1.6.1",
+    "preboot": "git+https://github.com/mdo/preboot.git#v2.1.0",
+    "uglify-js": "3.3.8"
   },
   "scripts": {
     "prepublish": "./src/build.sh"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GitbookIO/theme-default.git"
+    "url": "https://github.com/GalileoApp/theme-galileo.git"
   },
   "author": "FriendCode Inc. <contact@gitbook.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/GitbookIO/theme-default/issues"
+    "url": "https://github.com/GalileoApp/theme-galileo/issues"
   },
   "contributors": [
     {
       "name": "Samy Pessé",
       "email": "samy@gitbook.com"
+    },
+    {
+      "name": "Evgen Bodunov",
+      "email": "evgen@getyourmap.com"
     }
   ],
   "gitbook": {
