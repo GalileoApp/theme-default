@@ -21,7 +21,7 @@
     "uglify-js": "3.3.8"
   },
   "scripts": {
-    "prepublish": "./src/build.sh"
+    "prepare": "./src/build.sh"
   },
   "repository": {
     "type": "git",
